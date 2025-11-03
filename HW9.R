@@ -82,8 +82,3 @@ ggplot(results, aes(x = n, y = power, color = as.factor(p))) +
 
 #save plot
 ggsave("figures/coin_flip_power.png", width = 7, height = 5)
-
-
-
-
-
